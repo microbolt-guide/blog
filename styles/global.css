@@ -1,0 +1,7 @@
+h1.custom-h1 {
+  -webkit-background-clip: 'text';
+  -webkit-text-fill-color: 'transparent';
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #7928CA, #FF0080);
+}

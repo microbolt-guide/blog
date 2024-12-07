@@ -1,0 +1,17 @@
+---
+type: tag
+title: Blocs etiquetats amb ...
+---
+
+import { TagName, TagTitle } from 'nextra-theme-blog/tags'
+
+export { getStaticProps, getStaticPaths } from 'nextra-theme-blog/tags'
+
+export default function Page() {
+  return (
+    <>
+      <TagTitle prefix="Blocs etiquets amb "/>
+      <h1><TagName /></h1>
+    </>
+  )
+}
