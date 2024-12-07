@@ -14,5 +14,9 @@ export default withNextra({
     return config;
   },
   reactStrictMode: true,
-  cleanDistDir: true
+  cleanDistDir: true,
+  output: "export",
+  images: {
+    unoptimized: true
+  }
 })
